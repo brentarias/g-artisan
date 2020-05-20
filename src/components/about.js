@@ -14,9 +14,9 @@ const Header = ({ data }) => (
         </div>
         <div className="left col-md-7 col-lg-8">
           <div className="about-details">
-            <span className="name">My Name is {data.name}.</span>
+            <span className="name">{data.location}</span>
             <h2 className="sub-position">
-              I'm a Professional {data.designation}.
+              {data.designation}
             </h2>
             <div
               dangerouslySetInnerHTML={{
@@ -24,7 +24,7 @@ const Header = ({ data }) => (
               }}
             />
             <ul className="details">
-              <li>
+              {/* <li>
                 <strong>Full Name</strong>
                 <p>{data.name}</p>
               </li>
@@ -35,7 +35,7 @@ const Header = ({ data }) => (
               <li>
                 <strong>Location</strong>
                 <p>{data.location}</p>
-              </li>
+              </li> */}
               <li>
                 <strong>Email</strong>
                 <p>

@@ -8,9 +8,9 @@ const { spaceId, accessToken } = process.env;
 
 module.exports = {
   siteMetadata: {
-    title: `Rohit Gupta`,
-    description: `Personal Site`,
-    author: `@rohitguptab`
+    title: `Nick Moncado`,
+    description: `Artisan Touch, Craft Remodeling`,
+    author: `@nickmoncado`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

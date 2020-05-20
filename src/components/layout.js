@@ -24,6 +24,13 @@ const Layout = ({ children, header }) => (
             file {
               url
             }
+            fluid(maxWidth: 65) {
+              base64
+              tracedSVG
+              srcWebp
+              srcSetWebp
+              src
+            }          
           }
           menus
         }
